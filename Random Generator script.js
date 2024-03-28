@@ -1,6 +1,6 @@
 // Define arrays for random book generation
 const genres = ['Fantasy', 'Romance', 'Thriller'];
-const authors = ['Katherine Center', 'Krista Richie', 'Sarah J Maas', 'J.K. Rowling', 'Jay Kristoff', 'Fredrick Backman', 'Freya North', 'Kristen Ciccarelli'];
+const authors = ['Sarah J Maas', 'Jay Kristoff', 'Fredrick Backman', 'Katerine Center', 'Krista Ritchi', 'Freya North', 'Kristen Ciccarelli', 'Alli Earnest'];
 
 // Function to generate a random book
 function generateRandomBook() {
@@ -12,8 +12,8 @@ function generateRandomBook() {
   return { title: randomTitle, author: randomAuthor, owned };
 }
 
-// Function to display generated books
-function displayBooks() {
+// Function to generate and display books
+function generateAndDisplayBooks() {
   const bookListElement = document.getElementById('bookList');
   bookListElement.innerHTML = ''; // Clear existing content
 
@@ -26,5 +26,5 @@ function displayBooks() {
   }
 }
 
-// Call the displayBooks function when the page loads
-window.onload = displayBooks;
+// Call the generateAndDisplayBooks function when the page loads
+window.onload = generateAndDisplayBooks;
