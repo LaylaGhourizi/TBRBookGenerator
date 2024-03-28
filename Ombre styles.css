@@ -1,0 +1,5 @@
+body {
+  background: linear-gradient(to bottom, #ffb6c1, #ff69b4, #ff1493); /* Pink ombre gradient */
+  font-family: Arial, sans-serif;
+  color: #333; /* Text color */
+}
